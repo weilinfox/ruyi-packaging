@@ -1,0 +1,10 @@
+<services>
+	<service name="tar_scm">
+		<param name="url">https://github.com/weilinfox/ruyi-packaging.git</param>
+		<param name="scm">git</param>
+		<param name="revision">master</param>
+		<param name="subdir">python-maturin-oe</param>
+		<param name="exclude">*</param>
+		<param name="extract">*</param>
+	</service>
+</services>
